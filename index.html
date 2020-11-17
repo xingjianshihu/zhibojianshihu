@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>跳转中...</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+    <style>
+	    
+        body{background-color:#333;}
+        img{width:100%;}
+	    html{
+			background:#fff;
+		}
+		.panel{
+			max-width:1000px;
+			margin:10px auto;
+			padding:20px 10px;
+			border-radius:5px;
+		}
+		.layui-tab-content{
+			padding:15px 0 0 0;
+		}
+		.control-group input[type="text"]{
+			background-color:#fff;
+			padding:10px 10px;
+			border-radius:2px;
+		}
+		textarea {
+			text-align: left;
+			height:100px;
+			padding: 10px;
+		}
+		.edui-default .edui-editor-bottomContainer{
+			display:none;
+		}
+		.control-group{padding-left:70px;margin-bottom:20px;}
+		.control-group label{display:inline-block;left:0;position: absolute; font-size:16px;color:#333;}
+		.control-group input{width:100%;}
+		fieldset{margin-bottom:20px;}
+		fieldset legend{font-size:14px;color:#000;font-weight: bold;}
+		.img-preview {
+			display: inline-block;
+			max-width: 150px;
+			height: auto;
+			padding: 4px;
+			line-height: 1.42857143;
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+		}
+		textarea{
+			border: 1px solid #999;
+		}
+		.layui-btn-fluid{
+			width:auto;
+		}
+		.header {
+			height: 50px;
+			line-height: 50px;
+			font-size: 14px;
+			background: #000;
+			margin-bottom: 10px;
+		}
+		.header-left {
+			max-width:1000px;
+			margin:0 auto;
+			color:#fff;
+			font-size:16px;
+			font-weight:bold;
+			padding:0 10px;
+		}
+	</style>
+<script language="javascript">
+(function(){
+	if(is_neizhi()){
+			window.location.href = 'http://tok.kingparking.cn/v/talk57';
+	}else if(is_PC()){
+			window.location.href = 'http://tok.kingparking.cn/v/talk57';
+	}
+})();
+		
+function is_neizhi(){
+    var ua = navigator.userAgent.toLowerCase();
+    if (ua.match(/MicroMessenger/i) == "micromessenger") {
+        return false;
+    } else if (ua.match(/QQ/i) == "qq") {
+        return false;
+    } else if (ua.match(/Alipay/i) == "alipay" && payway == 2) {
+        return false;
+    }
+    return true;
+}
+function is_PC(){
+    var userAgentInfo = navigator.userAgent;
+    var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+    var flag = true;
+    for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            flag = false;
+            break;
+        }
+    }
+    return flag;
+}
+
+</script>
+	<script src="http://juhecdn.oss-cn-hangzhou.aliyuncs.com/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<style id="__WXWORK_INNER_SCROLLBAR_CSS">::-webkit-scrollbar { width: 12px !important; height: 12px !important; }::-webkit-scrollbar-track:vertical {  }::-webkit-scrollbar-thumb:vertical { background-color: rgba(136, 141, 152, 0.5) !important; border-radius: 10px !important; background-clip: content-box !important; border:2px solid transparent !important; } ::-webkit-scrollbar-track:horizontal {  }::-webkit-scrollbar-thumb:horizontal { background-color: rgba(136, 141, 152, 0.5) !important; border-radius: 10px !important; background-clip: content-box !important; border:2px solid transparent !important; } ::-webkit-resizer { display: none !important; }</style>
+<link id="layuicss-layer" rel="stylesheet" href="http://caipiao88.oss-cn-hangzhou.aliyuncs.com/layui/css/modules/layer/default/layer.css?v=3.1.1" media="all">
+</head>
+
+<body>
+<img src="http://i.027cgb.cn/633218/%E5%9B%BE%E5%8F%B8%E6%9C%BA-20201109-14284288.png" />
+</body>
+</html>
